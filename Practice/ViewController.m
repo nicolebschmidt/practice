@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *dialogView;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+- (IBAction)loginButtonDidPress:(id)sender;
 
 @end
 
@@ -33,4 +36,6 @@
     return UIStatusBarStyleLightContent;
 }
 
+- (IBAction)loginButtonDidPress:(id)sender {
+}
 @end
